@@ -5,6 +5,7 @@ package chapter8;
 public class TextProcessor {
     public static void main(String[] args) {
         countWords("I love Test Automation University");
+        reverseString("Hello TAU!");
     }
 
     /**
@@ -22,6 +23,17 @@ public class TextProcessor {
 
         for (String word : words) {
             System.out.println(word);
+        }
+    }
+
+    /**
+     * Prints a String in reverse order
+     * @param text String to reverse
+     */
+
+    private static void reverseString(String text) {
+        for(int i = text.length() - 1; i >= 0; i--){
+            System.out.print(text.charAt(i));
         }
     }
 }
