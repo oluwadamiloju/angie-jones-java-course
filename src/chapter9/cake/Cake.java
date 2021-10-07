@@ -6,6 +6,7 @@ public class Cake {
 
     public Cake(String flavour) {
         this.flavour = flavour;
+        this.price = 1999.99;
     }
 
     public String getFlavour() {

@@ -3,8 +3,8 @@ package chapter9.cake;
 public class BirthdayCake extends Cake{
     private int candles;
 
-    public BirthdayCake(String flavour) {
-        super(flavour);
+    public BirthdayCake() {
+        super("Mango sorbet");
     }
 
     public int getCandles() {
