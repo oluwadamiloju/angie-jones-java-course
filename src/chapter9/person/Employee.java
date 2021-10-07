@@ -1,6 +1,6 @@
-package chapter9;
+package chapter9.person;
 
-public class Employee extends Person{
+public class Employee extends Person {
     private String employeeId;
     private String title;
 

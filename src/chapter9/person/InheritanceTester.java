@@ -1,4 +1,6 @@
-package chapter9;
+package chapter9.person;
+
+import chapter9.person.Employee;
 
 public class InheritanceTester {
     public static void main(String[] args) {
