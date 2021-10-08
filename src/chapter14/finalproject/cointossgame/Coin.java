@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class Coin {
     private String side;
-    private static final String HEAD = "Head";
-    private static final String TAIL = "Tail";
+    public static final String HEAD = "Head";
+    public static final String TAIL = "Tail";
 
     public String getSide() {
         return side;
