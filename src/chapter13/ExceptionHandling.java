@@ -7,9 +7,15 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ExceptionHandling {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 //        createANewFile();
-        numbersExceptionHandling();
+//        numbersExceptionHandling();
+        createNewFileRethrow();
+    }
+
+    private static void createNewFileRethrow() throws IOException{
+        File file = new File("resources/nonexistent.txt");
+        file.createNewFile();
     }
 
     private static void numbersExceptionHandling() {
